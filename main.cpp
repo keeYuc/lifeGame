@@ -28,7 +28,7 @@ int main()
         int x = rand() % (WIDE - 1) + 1;
         int y = rand() % (HIGH - 1) + 1;
         // std::cout << x << "----" << y << std::endl;
-        myLifeList[x][y]->life = true;
+        myLifeList[x][y]->reLife();
 
     }
     while (1)

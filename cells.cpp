@@ -84,7 +84,7 @@ bool cells::isLife()
     if (a >= 3)
     {
         this->life = true;
-        return true;
+
     }
     if (a < 2)
     {
